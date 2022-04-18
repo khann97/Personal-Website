@@ -1,0 +1,218 @@
+/* Background for each page */
+#body-index{
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 1)), url("images/home.png");
+    background-size: cover;
+}
+#body-entertainment{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 1)), url("images/entertainment.png");
+}
+#body-sports{
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 1)), url("images/sports.png");
+}
+#body-favourite-foods{
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 1)), url("images/foods.png");
+}
+#body-life-and-goals{
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)), url("images/life-and-goals.png");
+}
+
+
+/* Navigation */
+nav{
+    list-style-type: none;
+    padding: 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.9) ;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+  }
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 15px;
+	padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: lightgray;
+}
+.nav-center {
+    text-align: center;
+}
+
+/* Emojis*/
+#face-emoji-home {  
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#face-emoji-entertainment {  
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#face-emoji-sports {  
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#face-emoji-foods {  
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#face-emoji-life {  
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Home Page Content */
+#arrow-down {  
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#flags-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#new-west-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#rubiks-cube-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#langauage-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+
+/* Entertainment Page Content */
+#tv-shows-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#movies-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#books-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#langauage-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+
+/* Sports Page Content */
+#f1-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#soccer-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+
+/* Foods Page Content */
+#shawarma-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#kibbeh-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#dolma-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+
+/* Life and Goals Page Content */
+#edu-career-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+#plans-ambition-pic {
+    float: right;
+    padding-left: 50px;
+    width: 250px;
+    height: 162px;
+}
+
+body {
+    margin: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+h2,p {
+    color: white;
+}
